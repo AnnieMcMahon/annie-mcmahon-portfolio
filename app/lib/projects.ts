@@ -1,4 +1,6 @@
-export default [
+import { CardFormat } from "@/app/lib/interfaces";
+
+const projects: CardFormat[] = [
   {
     id: 0,
     title: "WNC Hiking Hub",
@@ -99,3 +101,5 @@ export default [
     webPageTitle: "fifteen-js-projects"
    },
 ];
+
+export default projects;
