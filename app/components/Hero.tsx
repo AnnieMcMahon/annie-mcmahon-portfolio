@@ -18,12 +18,12 @@ export default function Hero() {
 
         {/* Text Section */}
         <div className="text-center md:text-left">
-          <h1 className="text-4xl font-extrabold text-gray-800 my-4">
+          <h1 className="my-4">
             Annie McMahon
           </h1>
 
           <div className="max-w-4xl text-gray-700 py-5">
-            <p className="text-lg leading-relaxed">
+            <p className="leading-relaxed">
               As a software developer with a strong foundation in{" "}
               <span className="font-semibold text-green-800">JavaScript</span> and{" "}
               <span className="font-semibold text-green-800">React</span>, I am passionate about leveraging my skills to create innovative and responsive solutions.
