@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa"; // Example icons
 import { SiJavascript, SiTailwindcss, SiTypescript, SiSupabase, SiNextdotjs } from "react-icons/si";
 

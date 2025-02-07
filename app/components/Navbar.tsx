@@ -1,5 +1,5 @@
-import { Menubar, MenubarTrigger, MenubarMenu } from "@/components/ui/menubar";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Menubar, MenubarTrigger, MenubarMenu } from "@/app/components/ui/menubar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar";
 import { Button } from "./ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
