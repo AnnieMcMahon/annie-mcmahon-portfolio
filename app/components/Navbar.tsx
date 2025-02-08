@@ -1,6 +1,6 @@
-import { Menubar, MenubarTrigger, MenubarMenu } from "@/app/components/ui/menubar";
-import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar";
-import { Button } from "./ui/button";
+import { Menubar, MenubarTrigger, MenubarMenu } from "@/components/ui/menubar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
@@ -20,18 +20,30 @@ export default function Navbar() {
       {/* Menu Section */}
       <div className="flex items-center space-x-4">
         <MenubarMenu>
-          <MenubarTrigger className="text-green-800 hover:text-green-500 transition">
+          <a
+            href="#about"
+            className="text-green-800 hover:text-green-500 transition"
+          >
             About
-          </MenubarTrigger>
-          <MenubarTrigger className="text-green-800 hover:text-green-500 transition">
+          </a>
+          <a
+            href="#projects"
+            className="text-green-800 hover:text-green-500 transition"
+          >
             Projects
-          </MenubarTrigger>
-          <MenubarTrigger className="text-green-800 hover:text-green-500 transition">
+          </a>
+          <a
+            href="#certificates"
+            className="text-green-800 hover:text-green-500 transition"
+          >
             Certificates
-          </MenubarTrigger>
-          <MenubarTrigger className="text-green-800 hover:text-green-500 transition">
+          </a>
+          <a
+            href="#contact"
+            className="text-green-800 hover:text-green-500 transition"
+          >
             Contact
-          </MenubarTrigger>
+          </a>
         </MenubarMenu>
       </div>
 

@@ -1,13 +1,11 @@
-import { Button } from "@/app/components/ui/button";
-import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa"; // Example icons
+import { Button } from "@/components/ui/button";
+import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiTypescript, SiSupabase, SiNextdotjs } from "react-icons/si";
 
 export default function Hero() {
   return (
     <div className="flex flex-col items-center py-10">
-      {/* Content Wrapper */}
       <div className="flex flex-col md:flex-row items-center md:items-start max-w-6xl mx-auto px-4">
-        {/* Image Section */}
         <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-8">
           <img
             src="avatar1.png"
@@ -16,7 +14,6 @@ export default function Hero() {
           />
         </div>
 
-        {/* Text Section */}
         <div className="text-center md:text-left">
           <h1 className="my-4">
             Annie McMahon
@@ -41,10 +38,9 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Technology Logos */}
       <div className="my-10">
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-4">
-          {/* Icon with Label */}
+
           <div className="flex flex-col items-center">
             <SiJavascript className="h-12 w-12 text-gray-800" />
             <span className="mt-2 text-sm text-gray-700">JavaScript</span>
@@ -80,7 +76,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Contact Button */}
       <div className="mt-6">
         <Button className="px-6 py-3 bg-green-800 text-white font-bold text-lg rounded-md hover:bg-green-600 transition">
           Contact Me
