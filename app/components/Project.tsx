@@ -5,10 +5,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { CardFormat } from "@/app/lib/interfaces";
+import { ProjectFormat } from "@/app/lib/interfaces";
 
 interface ProjectProps {
-  project: CardFormat;
+  project: ProjectFormat;
 }
 
 export default function Project({ project }: ProjectProps) {

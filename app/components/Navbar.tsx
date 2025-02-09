@@ -6,7 +6,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Navbar() {
   return (
     <Menubar className="flex items-center justify-between px-4 py-5 bg-gray-100">
-      {/* Avatar Section */}
       <div className="flex items-center">
         <Button variant="ghost" className="relative h-8 w-8 rounded-full">
           <Avatar className="h-8 w-8">
@@ -17,7 +16,6 @@ export default function Navbar() {
         <p className="ml-3 hidden md:block">Annie McMahon</p>
       </div>
 
-      {/* Menu Section */}
       <div className="flex items-center space-x-4">
         <MenubarMenu>
           <a
@@ -47,7 +45,6 @@ export default function Navbar() {
         </MenubarMenu>
       </div>
 
-      {/* Social Icons Section */}
       <div className="flex items-center space-x-4">
         <a
           href="https://github.com/anniemcmahon"

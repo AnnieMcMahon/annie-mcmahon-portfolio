@@ -1,6 +1,6 @@
-import { CardFormat } from "@/app/lib/interfaces";
+import { ProjectFormat } from "@/app/lib/interfaces";
 
-const projects: CardFormat[] = [
+const projects: ProjectFormat[] = [
   {
     id: 0,
     title: "WNC Hiking Hub",
