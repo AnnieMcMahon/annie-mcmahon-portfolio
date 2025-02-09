@@ -6,7 +6,7 @@ const projects: ProjectFormat[] = [
     title: "WNC Hiking Hub",
     image: "projects/wnc-hiking-hub.png",
     technology: "CSS, JavaScript, React, NextJS, Supabase, SQL",
-    summary: "This app allows users to create a free account, post a hike for others to join, or join a posted hike.",
+    summary: "This app allows hikers to create a free account, post a hike for others to join, or join a posted hike.",
     gitHubLink: "https://github.com/AnnieMcMahon/wnc-hiking-hub-v3-db",
     gitHubTitle: "wnc-hiking-hub-v3-db",
     webPageLink: "https://wnc-hiking-hub-v3-db.vercel.app/",
@@ -17,7 +17,7 @@ const projects: ProjectFormat[] = [
     title: "Mini-Games",
     image: "projects/mini-games.png",
     technology: "CSS, JavaScript, React, Next.JS",
-    summary: "This app allows user to play any of the mini-games I created.",
+    summary: "This app features a collection of mini-games I created as I learned to code.",
     gitHubLink: "https://github.com/AnnieMcMahon/mini-games-v2",
     gitHubTitle: "mini-games-v2",
     webPageLink: "https://mini-games-v2.vercel.app/",
@@ -27,8 +27,8 @@ const projects: ProjectFormat[] = [
     id: 2,
     title: "Ravenous",
     image: "projects/ravenous.png",
-    technology: "HTML, CSS, TypeScript, React",
-    summary: "This site uses a Yelp API to generate restaurant suggestions based on location and keyword.",
+    technology: "HTML, CSS, TypeScript, React, Yelp API",
+    summary: "This app generates restaurant suggestions based on location and keyword, which users can sort by best match, highest rated, or most reviewed.",
     gitHubLink: "https://github.com/AnnieMcMahon/ravenous-v2",
     gitHubTitle: "ravenous",
     webPageLink: "https://ravenous-v2.vercel.app/",
@@ -38,8 +38,8 @@ const projects: ProjectFormat[] = [
     id: 3,
     title: "Jammming",
     image: "projects/jammming.png",
-    technology: "HTML, CSS, JavaScript, React",
-    summary: "This site uses a Spotify API to allow users to find songs based on search term, add songs to a new playlist, and save the new playlist on their Spotify account.",
+    technology: "HTML, CSS, JavaScript, React, Spotify API",
+    summary: "This app allows Spotify users to search for songs and add them to a new playlist, then save the playlist on their Spotify account.",
     gitHubLink: "https://github.com/AnnieMcMahon/jammming",
     gitHubTitle: "jammming",
     webPageLink: "https://annie-jammming.netlify.app/",
@@ -49,8 +49,8 @@ const projects: ProjectFormat[] = [
     id: 4,
     title: "Minimal Reddit",
     image: "projects/reddit.png",
-    technology: "HTML, CSS, JavaScript, React/Redux",
-    summary: "The application allows users to view and search posts and comments provided by the Reddit API.",
+    technology: "HTML, CSS, JavaScript, React/Redux, Reddit API",
+    summary: "In this minimalist Reddit app, users can search for Reddit posts based on a keyword.",
     gitHubLink: "https://github.com/AnnieMcMahon/minimal-reddit",
     gitHubTitle: "minimal-reddit",
     webPageLink: "https://minimal-reddit-annie.netlify.app/",
@@ -60,14 +60,14 @@ const projects: ProjectFormat[] = [
     id: 5,
     title: "Film Finder",
     image: "projects/film-finder.png",
-    technology: "CSS, JavaScript, React",
-    summary: "Users can get a random movie recommendation by selecting a genre. Some of the code was provided by Codecademy, but I modified it to make it my own. For this second version, I rebuilt the project using React.",
+    technology: "CSS, JavaScript, React, TMDB API",
+    summary: "Users can get a random movie recommendation by selecting a genre. I rebuilt this Codecademy project using React and modified it to make it my own.",
     gitHubLink: "https://github.com/AnnieMcMahon/film-finder-v2",
     gitHubTitle: "film-finder-v2",
     webPageLink: "https://film-finder-v2.vercel.app/",
     webPageTitle: "film-finder-v2.vercel.app"
    },
-   {
+   /*{
     id: 6,
     title: "HTML Cheatsheet",
     image: "projects/html-cheatsheet.png",
@@ -99,7 +99,7 @@ const projects: ProjectFormat[] = [
     gitHubTitle: "fifteen-js-projects",
     webPageLink: "https://anniemcmahon.github.io/fifteen-js-projects/",
     webPageTitle: "fifteen-js-projects"
-   },
+   },*/
 ];
 
 export default projects;
