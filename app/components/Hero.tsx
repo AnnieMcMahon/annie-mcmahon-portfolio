@@ -4,13 +4,13 @@ import { SiJavascript, SiTailwindcss, SiTypescript, SiSupabase, SiNextdotjs } fr
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center py-10">
+    <div className="flex flex-col items-center py-10" id="about">
       <div className="flex flex-col md:flex-row items-center md:items-start max-w-6xl mx-auto px-4">
         <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-8">
           <img
             src="avatar1.png"
             alt="Annie McMahon"
-            className="w-64 h-64 rounded-full object-cover shadow-md"
+            className="w-64 h-64 rounded-full object-cover shadow-md mt-4"
           />
         </div>
 

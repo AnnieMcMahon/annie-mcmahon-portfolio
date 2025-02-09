@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <Menubar className="flex items-center justify-between px-4 py-5 bg-gray-100">
+    <Menubar className="flex items-center justify-between px-4 py-5 bg-gray-100 fixed top-0 w-full z-10">
       <div className="flex items-center">
         <Button variant="ghost" className="relative h-8 w-8 rounded-full">
           <Avatar className="h-8 w-8">
@@ -37,7 +37,7 @@ export default function Navbar() {
             Certificates
           </a>
           <a
-            href="#contact"
+            href="#contact-form"
             className="text-green-800 hover:text-green-500 transition"
           >
             Contact
