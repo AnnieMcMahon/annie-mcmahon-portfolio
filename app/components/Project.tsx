@@ -32,10 +32,10 @@ export default function Project({ project }: ProjectProps) {
         </p>
       </CardContent>
       <CardFooter className="justify-center gap-x-4 pt-2">
-        <a href={project.webPageLink} className="text-xs text-blue-500 hover:underline">
+        <a href={project.webPageLink} className="text-xs text-green-800 hover:underline">
           View
         </a>
-        <a href={project.gitHubLink} className="text-xs text-blue-500 hover:underline">
+        <a href={project.gitHubLink} className="text-xs text-green-800 hover:underline">
           Source
         </a>
       </CardFooter>
