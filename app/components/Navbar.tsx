@@ -37,7 +37,7 @@ export default function Navbar() {
             Certificates
           </a>
           <a
-            href="#contact-form"
+            href="#contact"
             className="text-green-800 hover:text-green-500 transition"
           >
             Contact
