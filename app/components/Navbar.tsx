@@ -7,12 +7,14 @@ export default function Navbar() {
   return (
     <Menubar className="flex items-center justify-between px-4 py-5 bg-gray-100 fixed top-0 w-full z-10">
       <div className="flex items-center">
-        <Button variant="ghost" className="relative h-8 w-8 rounded-full">
+      <a href="#about">
+        <Button variant="ghost" className="relative h-8 w-8 rounded-full" >
           <Avatar className="h-8 w-8">
             <AvatarImage src="avatar1.png" />
             <AvatarFallback>AM</AvatarFallback>
           </Avatar>
         </Button>
+        </a>
         <p className="ml-3 hidden md:block">Annie McMahon</p>
       </div>
 

@@ -77,7 +77,7 @@ export default function Hero() {
       </div>
 
       <div className="mt-6">
-        <a href="#contact-form">
+        <a href="#contact">
           <Button className="px-6 py-3 bg-green-800 text-white font-bold text-lg rounded-md hover:bg-green-600 transition">
           Contact Me
           </Button>
