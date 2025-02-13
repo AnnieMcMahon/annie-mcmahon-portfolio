@@ -20,7 +20,7 @@ export default function Hero() {
           </h1>
 
           <div className="max-w-4xl text-gray-700 py-5">
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-left">
               As a software developer with a strong foundation in{" "}
               <span className="font-semibold text-green-800">JavaScript</span> and{" "}
               <span className="font-semibold text-green-800">React</span>, I am passionate about leveraging my skills to create innovative and responsive solutions.
