@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -50,14 +49,8 @@ export function ContactForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 mx-auto py-10 max-w-lg"
-        id="contact-form"
+        className="space-y-8 mx-auto py-4 max-w-lg"
       >
-        <h2 className="text-2xl font-bold text-center">Contact Me</h2>
-        <FormDescription>
-          Please fill out the form below and I will get back to you as soon as
-          possible.
-        </FormDescription>
         <FormField
           control={form.control}
           name="name"
@@ -102,7 +95,7 @@ export function ContactForm() {
         <div className="flex justify-center">
           <Button
             type="submit"
-            className="px-6 py-3 bg-green-800 text-white font-bold text-lg rounded-md hover:bg-green-600 transition"
+            className="px-6 py-3 bg-teal-800 text-white font-bold text-lg rounded-md hover:bg-cyan-300 transition"
           >
             Submit
           </Button>

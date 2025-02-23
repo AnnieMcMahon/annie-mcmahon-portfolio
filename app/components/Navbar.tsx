@@ -1,28 +1,27 @@
 import { Menubar, MenubarMenu } from "@/components/ui/menubar";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Navbar() {
   const navtabs = [
     {
       id: 1, 
-      link: "#about",
+      link: "/about",
       display: "About"
     },
     {
       id: 2, 
-      link: "#projects",
+      link: "/#projects",
       display: "Projects"
     },
     {
       id: 3, 
-      link: "#certificates",
+      link: "/#certificates",
       display: "Certificates"
     },
     {
       id: 4, 
-      link: "#contact",
+      link: "/#contact",
       display: "Contact"
     },
     {
@@ -34,27 +33,20 @@ export default function Navbar() {
 
   return (
     <Menubar className="flex items-center justify-between md:px-4 px-2 py-5 bg-gray-100 fixed top-0 w-full z-10">
-      <div className="flex items-center">
       <a href="#about">
-        <Button variant="ghost" className="relative h-8 w-8 rounded-full" >
-          <Avatar className="h-8 w-8">
-            <AvatarImage src="avatar1.png" />
-            <AvatarFallback>AM</AvatarFallback>
-          </Avatar>
-        </Button>
-        </a>
-        <p className="ml-3 hidden md:block">Annie McMahon</p>
-      </div>
+        <img className="w-36" src="logo/name.png" alt="AMWS" />
+      </a>
 
       <div className="flex items-center md:space-x-4 space-x-2">
         <MenubarMenu>
           {navtabs.map((tab) => (
-          <a
-            href={tab.link}
-            className="text-green-800 hover:text-green-500 transition"
-          >
-            {tab.display}
-          </a>
+          <Link 
+          key={tab.id} 
+          href={tab.link}
+          className="text-teal-700 hover:text-cyan-300 transition"
+        >
+          {tab.display}
+        </Link>
           ))}
         </MenubarMenu>
       </div>
