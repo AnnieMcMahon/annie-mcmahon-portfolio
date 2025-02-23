@@ -4,6 +4,34 @@ import { Button } from "@/components/ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
+  const navtabs = [
+    {
+      id: 1, 
+      link: "#about",
+      display: "About"
+    },
+    {
+      id: 2, 
+      link: "#projects",
+      display: "Projects"
+    },
+    {
+      id: 3, 
+      link: "#certificates",
+      display: "Certificates"
+    },
+    {
+      id: 4, 
+      link: "#contact",
+      display: "Contact"
+    },
+    {
+      id: 5, 
+      link: "/services",
+      display: "Services"
+    },
+  ]
+
   return (
     <Menubar className="flex items-center justify-between md:px-4 px-2 py-5 bg-gray-100 fixed top-0 w-full z-10">
       <div className="flex items-center">
@@ -20,30 +48,14 @@ export default function Navbar() {
 
       <div className="flex items-center md:space-x-4 space-x-2">
         <MenubarMenu>
+          {navtabs.map((tab) => (
           <a
-            href="#about"
+            href={tab.link}
             className="text-green-800 hover:text-green-500 transition"
           >
-            About
+            {tab.display}
           </a>
-          <a
-            href="#projects"
-            className="text-green-800 hover:text-green-500 transition"
-          >
-            Projects
-          </a>
-          <a
-            href="#certificates"
-            className="text-green-800 hover:text-green-500 transition"
-          >
-            Certificates
-          </a>
-          <a
-            href="#contact"
-            className="text-green-800 hover:text-green-500 transition"
-          >
-            Contact
-          </a>
+          ))}
         </MenubarMenu>
       </div>
 
