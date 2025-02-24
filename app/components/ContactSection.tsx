@@ -6,8 +6,6 @@ export default function ContactSection() {
       <h2>Contact Me</h2>
       <ContactForm/>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/anniemcmahon20/" className="text-teal-800 hover:underline" target="_blank">www.linkedin.com/in/anniemcmahon20</a></p>
-      <p>E-mail: <a href="mailto:anniemcmahon20@gmail.com" className="text-teal-800 hover:underline">anniemcmahon20@gmail.com</a></p>
       <p>GitHub: <a href="https://github.com/AnnieMcMahon" className="text-teal-800 hover:underline" target="_blank">github.com/AnnieMcMahon</a></p>
-
     </div>
   )}

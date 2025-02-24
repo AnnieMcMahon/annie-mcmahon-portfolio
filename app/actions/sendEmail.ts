@@ -7,10 +7,10 @@ export async function sendEmail(name: string, email: string, message: string) {
     const resend = new Resend(process.env.RESEND_API_KEY);
 
     await resend.emails.send({
-      from: email,
-      to: ["anniemcmahon20@gmail.com"],
+      from: "annie@amwebstudio.net",
+      to: ["annie@amwebstudio.net"],
       subject: `New message from ${name}`,
-      html: `<p>${message}</p>`,
+      html: `<p>${message}</p><p>${email}`,
     });
 
     return { success: true };
