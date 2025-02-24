@@ -4,9 +4,9 @@ export default function Hero() {
   return (
     <div className="flex flex-col items-center py-10" id="about">
       <img
-        src="logo/logo.png"
+        src="logo/amws-logo.png"
         alt="AMWS"
-        className="object-cover shadow-md mt-4 w-64"
+        className="object-cover mt-4 w-72"
       />
       <div>
         <p className="w-3/4 leading-relaxed text-left mx-auto text-gray-800 py-5">
