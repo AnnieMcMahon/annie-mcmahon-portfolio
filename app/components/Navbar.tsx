@@ -33,8 +33,8 @@ export default function Navbar() {
 
   return (
     <Menubar className="flex items-center justify-between md:px-4 px-2 py-5 bg-gray-100 fixed top-0 w-full z-10">
-      <a href="#about">
-        <img className="w-36" src="logo/name.png" alt="AMWS" />
+      <a href="/#about">
+        <img className="w-48" src="logo/name.png" alt="AMWS" />
       </a>
 
       <div className="flex items-center md:space-x-4 space-x-2">

@@ -1,12 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiTypescript,
-  SiSupabase,
-  SiNextdotjs,
-} from "react-icons/si";
 
 export default function Hero() {
   return (

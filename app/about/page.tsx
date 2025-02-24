@@ -98,7 +98,7 @@ export default function About() {
 
       <div className="mt-6">
         <a href="/#contact">
-          <Button className="px-6 py-3 bg-green-800 text-white font-bold text-lg rounded-md hover:bg-green-600 transition">
+          <Button className="px-6 py-3 bg-teal-800 text-white font-bold text-lg rounded-md hover:bg-cyan-300 transition">
             Contact Me
           </Button>
         </a>

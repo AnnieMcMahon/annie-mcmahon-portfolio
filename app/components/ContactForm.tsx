@@ -1,5 +1,3 @@
-// Not used in project, just for reference or future use
-
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -16,8 +14,9 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { sendEmail } from "@/app/actions/sendEmail";
+import { useState } from "react";
 
-// Define form schema
 const formSchema = z.object({
   name: z.string().min(2, {
     message: "Name must be at least 2 characters.",
@@ -31,6 +30,8 @@ const formSchema = z.object({
 });
 
 export function ContactForm() {
+  const [status, setStatus] = useState<string | null>(null);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -40,16 +41,23 @@ export function ContactForm() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    // Handle form submission logic, e.g., sending to an API
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setStatus("Sending...");
+    const response = await sendEmail(values.name, values.email, values.message);
+    
+    if (response.success) {
+      setStatus("Message sent successfully!");
+      form.reset();
+    } else {
+      setStatus("Failed to send message. Please try again.");
+    }
   }
 
   return (
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 mx-auto py-4 max-w-lg"
+        className="space-y-4 mx-auto py-4 max-w-lg"
       >
         <FormField
           control={form.control}
@@ -92,6 +100,9 @@ export function ContactForm() {
             </FormItem>
           )}
         />
+
+        {status && <p className="text-center text-sm text-gray-600">{status}</p>}
+
         <div className="flex justify-center">
           <Button
             type="submit"
