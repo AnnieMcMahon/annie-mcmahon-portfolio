@@ -1,0 +1,30 @@
+const navtabs = [
+  {
+    id: 1, 
+    link: "/about",
+    display: "About"
+  },
+  {
+    id: 2, 
+    link: "/#projects",
+    display: "Projects"
+  },
+  {
+    id: 3, 
+    link: "/#certificates",
+    display: "Certificates"
+  },
+  {
+    id: 4, 
+    link: "/#services",
+    display: "Services"
+
+  },
+  {
+    id: 5, 
+    link: "/#contact",
+    display: "Contact"
+  },
+]
+
+export default navtabs;

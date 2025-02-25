@@ -30,6 +30,9 @@ export default function Hero() {
           <br />
           <br />
           Let me help you bring your vision to life.
+          <br />
+          <br />
+          <a href="/about" className="text-teal-800 hover:text-cyan-300">About Me</a>
         </p>
       </div>
 
