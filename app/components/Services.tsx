@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-12" id="services">
@@ -53,12 +55,12 @@ export default function Services() {
       </div>
 
       <div className="text-center mt-12">
-        <a
+        <Link
           href="/#contact"
           className="bg-teal-700 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-cyan-300"
         >
           Get a Free Quote
-        </a>
+        </Link>
       </div>
     </div>
   );

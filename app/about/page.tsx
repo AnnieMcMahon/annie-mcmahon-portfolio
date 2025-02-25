@@ -7,6 +7,7 @@ import {
   SiSupabase,
   SiNextdotjs,
 } from "react-icons/si";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -35,14 +36,14 @@ export default function About() {
             <br />
             In 2022, I made a pivotal decision to return to tech. I earned my
             full-stack developer certificate through Codecademy, and ever since,
-            I've been passionate about coding and learning new technologies. My
+            I&apos;ve been passionate about coding and learning new technologies. My
             current focus is on building applications with React, Next.js, and
             Tailwind CSS, while also exploring backend services like Supabase.
-            I'm particularly interested in projects that solve real-world
+            I am particularly interested in projects that solve real-world
             problems and create meaningful experiences for users.
             <br />
             <br />
-            When I'm not coding, I enjoy hiking and exploring the beautiful
+            When I&apos;m not coding, I enjoy hiking and exploring the beautiful
             trails of Western North Carolina. Collaboration, continuous
             learning, and innovation drive my passion for software development.
           </p>
@@ -97,11 +98,11 @@ export default function About() {
       </div>
 
       <div className="mt-6">
-        <a href="/#contact">
+        <Link href="/#contact">
           <Button className="px-6 py-3 bg-teal-800 text-white font-bold text-lg rounded-md hover:bg-cyan-300 transition">
             Contact Me
           </Button>
-        </a>
+        </Link>
       </div>
     </div>
   );
