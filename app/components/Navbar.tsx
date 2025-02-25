@@ -21,13 +21,14 @@ export default function Navbar() {
     },
     {
       id: 4, 
-      link: "/#contact",
-      display: "Contact"
+      link: "/#services",
+      display: "Services"
+
     },
     {
       id: 5, 
-      link: "/services",
-      display: "Services"
+      link: "/#contact",
+      display: "Contact"
     },
   ]
 

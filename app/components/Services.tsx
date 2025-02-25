@@ -1,6 +1,7 @@
 export default function Services() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-12">
+    <div className="max-w-3xl mx-auto px-6 py-12" id="services">
+      <h2>Services</h2>
       <p className="text-lg text-center text-gray-600 my-4">
         I help small businesses, nonprofits, and startups build modern,
         high-performance websites and web apps to grow their online presence.

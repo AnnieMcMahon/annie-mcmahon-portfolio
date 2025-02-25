@@ -40,7 +40,7 @@ const formSchema = z
     path: ["email"], 
   });
 
-export function ContactForm() {
+export default function ContactForm() {
   const [status, setStatus] = useState<string | null>(null);
 
   const form = useForm<z.infer<typeof formSchema>>({
