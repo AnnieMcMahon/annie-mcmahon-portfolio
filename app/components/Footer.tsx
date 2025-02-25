@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="py-4 bg-gray-100">
+    <footer className="py-4">
       <div className="text-center">
         <p>
           LinkedIn:{" "}

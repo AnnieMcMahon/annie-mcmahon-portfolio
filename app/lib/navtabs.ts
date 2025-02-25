@@ -11,14 +11,13 @@ const navtabs = [
   },
   {
     id: 3, 
-    link: "/#certificates",
-    display: "Certificates"
+    link: "/#services",
+    display: "Services"
   },
   {
     id: 4, 
-    link: "/#services",
-    display: "Services"
-
+    link: "/#certificates",
+    display: "Certificates"
   },
   {
     id: 5, 
