@@ -87,7 +87,7 @@ export default function ContactForm() {
           )}
         />
 
-        <FormField
+<FormField
           control={form.control}
           name="email"
           render={({ field }) => (
@@ -108,7 +108,7 @@ export default function ContactForm() {
             <FormItem>
               <FormLabel className="font-bold">Phone</FormLabel>
               <FormControl>
-                <Input className="w-full" type="tel" {...field} />
+                <Input className="w-full" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

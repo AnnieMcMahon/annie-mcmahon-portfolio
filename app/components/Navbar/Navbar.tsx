@@ -9,7 +9,7 @@ export default function Navbar() {
     <Menubar className="items-center justify-between md:px-4 px-2 py-5 bg-gray-100 fixed top-0 w-full z-10 flex">
       
       {/* Logo */}
-      <a href="/#about">
+      <a href="/#home">
         <img className="w-24 md:w-48" src="logo/amws-name.png" alt="AMWS" />
       </a>
 

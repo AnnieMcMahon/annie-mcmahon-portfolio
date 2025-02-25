@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center py-10" id="about">
+    <div className="flex flex-col items-center py-10" id="home">
       <img
         src="logo/amws-logo.png"
         alt="AMWS"
