@@ -6,6 +6,9 @@ import { SidebarProvider } from "@/components/ui/sidebar";
 export const metadata: Metadata = {
   title: "Annie McMahon",
   description: "Annie McMahon's software developer portfolio",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
