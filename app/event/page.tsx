@@ -6,7 +6,7 @@ export default function Event() {
     <div className="max-w-3xl mx-auto px-6 py-12 text-gray-700">
       <h1 className="text-3xl font-bold text-center text-teal-700">🎉 MARCH MADNESS WEBSITE GIVEAWAY! 🎉</h1>
       <p className="text-lg text-center mt-4">
-      Do you know a nonprofit, startup, or small business in WNC that’s making an impact but can’t afford a professional website?
+      Do you know a nonprofit, startup, or small business in WNC that&#39;s making an impact but can&#39;t afford a professional website?
       <br/>
       <br/>
 To celebrate the launch of <span className="font-bold text-teal-700">Annie McMahon Web Studio</span>, I want to give back by building free websites for those who need them most.
@@ -17,7 +17,7 @@ To celebrate the launch of <span className="font-bold text-teal-700">Annie McMah
         <p className="text-gray-700 mt-2">Submit:</p>
         <ul className="list-disc pl-6 mt-2">
           <li>Your name and e-mail</li>
-          <li>Your nominee's name and e-mail (can be yourself)</li>
+          <li>Your nominee&#39;s name and e-mail (can be yourself)</li>
           <li>Why they deserve a free website (the more compelling, the better!)</li>
           <li>A link to their social media or current website (if available)</li>
         </ul>
@@ -48,7 +48,7 @@ To celebrate the launch of <span className="font-bold text-teal-700">Annie McMah
         <p className="mt-2">📅 <span className="font-bold">Deadline to enter:</span> March 31st</p>
         <p className="mt-1">🏆 <span className="font-bold">Winners will be announced</span> the first week of April</p>
       </div>
-<p className="text-center">Let's build something amazing together! 🚀</p>
+<p className="text-center">Let&#39;s build something amazing together! 🚀</p>
       
       <div className="text-center m-8">
         <EventForm />

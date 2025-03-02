@@ -36,14 +36,14 @@ export default function About() {
             <br />
             In 2022, I made a pivotal decision to return to tech. I earned my
             full-stack developer certificate through Codecademy, and ever since,
-            I&apos;ve been passionate about coding and learning new technologies. My
+            I&#39;ve been passionate about coding and learning new technologies. My
             current focus is on building applications with React, Next.js, and
             Tailwind CSS, while also exploring backend services like Supabase.
             I am particularly interested in projects that solve real-world
             problems and create meaningful experiences for users.
             <br />
             <br />
-            When I&apos;m not coding, I enjoy hiking and exploring the beautiful
+            When I&#39;m not coding, I enjoy hiking and exploring the beautiful
             trails of Western North Carolina. Collaboration, continuous
             learning, and innovation drive my passion for software development.
           </p>
