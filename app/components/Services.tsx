@@ -5,61 +5,75 @@ export default function Services() {
     <div className="max-w-3xl mx-auto px-6 py-12" id="services">
       <h2>Services</h2>
       <p className="text-lg text-center text-gray-600 my-4">
-        I help small businesses, nonprofits, and startups build modern,
-        high-performance websites and web apps to grow their online presence.
+        I help small businesses, nonprofits, and startups build modern, high-performance websites to grow their online presence. Request your free consultation today and let's bring your vision to life!
       </p>
 
       <div className="border p-6 rounded-2xl shadow-lg">
         <h2 className="text-2xl font-semibold">Landing Page</h2>
         <p className="text-gray-700 mt-2">
-          A high-converting, single-page website designed to promote your
-          product, service, or event
+          A high-converting, single-page website designed to promote your product, service, or event
         </p>
-        <ul className="list-none pl-6 mt-2 text-gray-600">
-          <li>✅ Custom design with Next.js & Tailwind</li>
-          <li>✅ Fast-loading & mobile-optimized</li>
-          <li>✅ Call-to-action (CTA) buttons & lead capture</li>
-          <li>✅ Contact form, social media links, or signup form</li>
+        <ul className="list-none md:pl-6 mt-2 text-gray-600">
+          <li>✅ Choose from templates or provide your own design</li>
+          <li>✅ Fast-loading and mobile-optimized</li>
+          <li>✅ Contact or signup form, social media links, call-to-action (CTA) button</li>
+          <li>✅ Free hosting</li>
+          <li>✅ Ability to easily convert to Professional Website with pages in the future</li>          
         </ul>
-        <p className="font-bold text-lg mt-4">$300 - $800 per project</p>
+        <p className="font-bold text-lg mt-4">$300 per project</p>
       </div>
 
       <div className="border p-6 rounded-2xl shadow-lg mt-8">
-        <h2 className="text-2xl font-semibold">Custom Website</h2>
+        <h2 className="text-2xl font-semibold">Professional Website</h2>
         <p className="text-gray-700 mt-2">
-          A fast, mobile-friendly website designed to showcase your brand and
-          attract customers
+          A fast, mobile-friendly website designed to showcase your brand and attract customers
         </p>
-        <ul className="list-none pl-6 mt-2 text-gray-600">
-          <li>✅ Blog, portfolio, or business site</li>
-          <li>✅ Mobile-friendly & SEO optimized</li>
-          <li>✅ Contact forms, social media links</li>
+        <ul className="list-none md:pl-6 mt-2 text-gray-600">
+          <li>✅ Ideal for portfolio or business site</li>
+          <li>✅ Showcase your employees, projects, or photo gallery</li>
+          <li>✅ Add a landing page for your special event or an About page to tell your story</li>
           <li>✅ Up to five pages</li>
+          <li>✅ Free hosting</li>
+          <li>✅ Ability to easily add a blog or database in the future</li>
         </ul>
-        <p className="font-bold text-lg mt-4">$500 - $1,500 per project</p>
+        <p className="font-bold text-lg mt-4">$500 per project</p>
       </div>
 
       <div className="border p-6 rounded-2xl shadow-lg mt-8">
-        <h2 className="text-2xl font-semibold">Web Application</h2>
+        <h2 className="text-2xl font-semibold">Advanced Website with Custom Features</h2>
         <p className="text-gray-700 mt-2">
-          Need something more advanced? I build interactive web apps with user
-          authentication, databases, and custom features
+          All of the above, plus more!
         </p>
-        <ul className="list-none pl-6 mt-2 text-gray-600">
-          <li>✅ User authentication (login, signup, profiles)</li>
-          <li>✅ Dashboards & data management</li>
-          <li>✅ Booking systems, event platforms</li>
-          <li>✅ API integrations (Stripe, Google Sheets, etc.)</li>
+        <ul className="list-none md:pl-6 mt-2 text-gray-600">
+          <li>✅ Professional responsive website with added functionality based on your needs</li>
+          <li>✅ Create a new blog or import an existing one</li>
+          <li>✅ Add a database connection</li>
+          <li>✅ Integrate safe login and authentication for your users</li>
+          <li>✅ Get a quote for your special requests</li>
         </ul>
-        <p className="font-bold text-lg mt-4">$1,500 - $10,000 per project</p>
+        <p className="font-bold text-lg mt-4">Starting at $750</p>
+      </div>
+
+      <div className="border p-6 rounded-2xl shadow-lg mt-8">
+        <h2 className="text-2xl font-semibold">Maintenance Service</h2>
+        <p className="text-gray-700 mt-2">
+          Want to change something? Already have a website but want to tweak it a little?
+        </p>
+        <ul className="list-none md:pl-6 mt-2 text-gray-600">
+          <li>✅ Make changes to your website whenever needed</li>
+          <li>✅ Add a new page to your existing website or convert your Landing Page to a Professional Website with up to five pages</li>
+          <li>✅ Update your About page or contact information</li>
+          <li>✅ Temporarily add an Event page for your special event or campaign</li>
+        </ul>
+        <p className="font-bold text-lg mt-4">$50/hour</p>
       </div>
 
       <div className="text-center mt-12">
         <Link
           href="/#contact"
-          className="bg-teal-700 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-cyan-300"
+          className="bg-teal-700 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-teal-600 transition"
         >
-          Get a Free Quote
+          Let's do it!
         </Link>
       </div>
     </div>

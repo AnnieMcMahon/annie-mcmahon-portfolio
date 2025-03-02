@@ -99,7 +99,7 @@ export default function About() {
 
       <div className="mt-6">
         <Link href="/#contact">
-          <Button className="px-6 py-3 bg-teal-800 text-white font-bold text-lg rounded-md hover:bg-cyan-300 transition">
+          <Button className="px-6 py-3 bg-teal-800 text-white font-bold text-lg rounded-md hover:bg-teal-600 transition">
             Contact Me
           </Button>
         </Link>

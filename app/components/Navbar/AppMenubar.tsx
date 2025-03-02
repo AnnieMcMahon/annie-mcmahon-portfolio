@@ -10,7 +10,7 @@ export default function AppMenubar() {
           <Link
             key={tab.id}
             href={tab.link}
-            className="text-teal-700 hover:text-cyan-300 transition"
+            className="text-teal-700 hover:text-teal-600 transition"
           >
             {tab.display}
           </Link>

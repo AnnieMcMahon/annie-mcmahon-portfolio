@@ -32,13 +32,13 @@ export default function Hero() {
           Let me help you bring your vision to life.
           <br />
           <br />
-          <a href="/about" className="text-teal-800 hover:text-cyan-300">About Me</a>
+          <a href="/about" className="text-teal-800 hover:text-teal-600">About Me</a>
         </p>
       </div>
 
       <div className="mt-6">
         <a href="#contact">
-          <Button className="px-6 py-3 bg-teal-800 text-white font-bold text-lg rounded-md hover:bg-cyan-300 transition">
+          <Button className="px-6 py-3 bg-teal-800 text-white font-bold text-lg rounded-md hover:bg-teal-600 transition">
             Contact Me
           </Button>
         </a>
