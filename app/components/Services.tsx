@@ -5,7 +5,7 @@ export default function Services() {
     <div className="max-w-3xl mx-auto px-6 py-12" id="services">
       <h2>Services</h2>
       <p className="text-lg text-center text-gray-600 my-4">
-        I help small businesses, nonprofits, and startups build modern, high-performance websites to grow their online presence. Request your free consultation today and let's bring your vision to life!
+        I help small businesses, nonprofits, and startups build modern, high-performance websites to grow their online presence. Request your free consultation today and let&apos;s bring your vision to life!
       </p>
 
       <div className="border p-6 rounded-2xl shadow-lg">
@@ -73,7 +73,7 @@ export default function Services() {
           href="/#contact"
           className="bg-teal-700 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-teal-600 transition"
         >
-          Let's do it!
+          Let&apos;s do it!
         </Link>
       </div>
     </div>
