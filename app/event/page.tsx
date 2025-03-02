@@ -1,4 +1,3 @@
-import Link from "next/link";
 import EventForm from "@/app/components/EventForm";
 
 export default function Event() {
