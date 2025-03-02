@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EventForm from "@/app/components/EventForm";
 
 export default function Event() {
   return (
@@ -50,10 +51,7 @@ To celebrate the launch of <span className="font-bold text-teal-700">Annie McMah
 <p className="text-center">Let's build something amazing together! 🚀</p>
       
       <div className="text-center m-8">
-        <Link href="/#contact" className="bg-teal-700 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-teal-600">
-          Enter Now
-        </Link>
-        <p className="my-8">Or apply via email: <Link href="mailto:annie@amwebstudio.com" className="text-teal-700 font-semibold">annie@amwebstudio.com</Link></p>
+        <EventForm />
       </div>
     </div>
   );
