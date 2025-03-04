@@ -15,16 +15,16 @@ export default function Hero() {
           </span>{" "}
           is dedicated to building custom websites, web apps, and collaborative projects that empower businesses and developers alike.
           <br />
-          <br />I specialize in crafting fast, responsive, and scalable landing pages and professional websites for small businesses, nonprofits, and startups.
+          <br />I specialize in crafting fast, responsive, and scalable <span className="font-semibold text-teal-800">landing pages</span> and <span className="font-semibold text-teal-800">professional websites</span> for small businesses, nonprofits, and startups.
           <br />
           <br />
-          Beyond client projects, I develop my own apps, some of which I monetize and others I offer for free. I also create collaborative web apps where new developers can gain hands-on experience by working on real-world projects.
+          Beyond client projects, I develop my own apps, some of which I monetize and others I offer for free. I also create <span className="font-semibold text-teal-800">collaborative web apps</span> where new developers can gain hands-on experience by working on real-world projects.
           <br/>
           <br/>
           Need a website? Want to collaborate or beta test one of my apps? Let&#39;s connect!
           <br />
           <br />
-          <a href="/about" className="text-teal-800 hover:text-teal-600">About Me</a>
+          <a href="/about" className="text-teal-800 hover:text-teal-600 font-bold underline">Learn more</a> about me, my skills, and my certifications.
         </p>
       </div>
 
