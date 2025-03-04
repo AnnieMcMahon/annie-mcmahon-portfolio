@@ -75,7 +75,7 @@ export default function EventForm() {
 
   return (
     <Form {...form}>
-      <div className="p-10 bg-gray-100 text-left" id="contact">
+      <div className="p-6 mb-8 rounded-2xl shadow-lg mt-6 bg-gray-100 text-left" id="contact">
         <h2>Apply Now</h2>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
