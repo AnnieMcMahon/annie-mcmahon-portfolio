@@ -22,6 +22,13 @@ export default function Footer() {
             github.com/AnnieMcMahon
           </a>
         </p>
+        <p>E-mail: <a
+            href="mailto:annie@amwebstudio.net"
+            className="text-teal-800 hover:underline"
+            target="_blank"
+          >
+            Send me an e-mail
+          </a></p>
         <p>
           &copy; {new Date().getFullYear()} Annie McMahon. All rights reserved.
         </p>

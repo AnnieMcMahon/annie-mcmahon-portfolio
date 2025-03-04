@@ -16,7 +16,7 @@ export default function AppSidebar() {
     <Sidebar className="block md:hidden" >
       <SidebarContent aria-describedby={undefined}>
         <SidebarGroup />
-          <SidebarGroupLabel className="p-1 mb-5 relatvie w-full">Menu</SidebarGroupLabel>
+          <SidebarGroupLabel className="p-1 mb-5 relative w-full">Menu</SidebarGroupLabel>
           <SidebarGroupContent aria-describedby={undefined}>
             <SidebarMenu>
               {navtabs.map((tab) => (

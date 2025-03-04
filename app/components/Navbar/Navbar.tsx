@@ -1,5 +1,5 @@
 import { Menubar } from "@/components/ui/menubar";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import AppSidebar from "@/app/components/Navbar/AppSidebar";
 import AppMenubar from "@/app/components/Navbar/AppMenubar";
 import { SidebarTrigger } from "@/components/ui/sidebar";
@@ -38,6 +38,14 @@ export default function Navbar() {
           className="text-gray-800 hover:text-gray-400 transition"
         >
           <FaLinkedin className="h-6 w-6" />
+        </Link>
+        <Link
+          href="mailto:annie@amwebstudio.net"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-800 hover:text-gray-400 transition"
+        >
+          <FaEnvelope className="h-6 w-6" />
         </Link>
       </div>
     </Menubar>
