@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="py-4">
-      <div className="flex flex-row justify-center px-auto gap-x-4 pb-4">
+      <div className="flex flex-row flex-wrap justify-center px-auto gap-x-4 pb-4">
         <div>
         <p>
           LinkedIn:{" "}

@@ -8,6 +8,7 @@ import {
   SiNextdotjs,
 } from "react-icons/si";
 import Link from "next/link";
+import Certificates from "@/app/components/Certificates";
 
 export default function About() {
   return (
@@ -96,6 +97,8 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      <Certificates />
 
       <div className="mt-6">
         <Link href="/#contact">

@@ -1,36 +1,40 @@
-import { Menubar } from "@/components/ui/menubar";
+import { Menubar, MenubarMenu } from "@/components/ui/menubar";
 import { FaGithub, FaLinkedin, FaEnvelope, FaSlack } from "react-icons/fa";
-import AppSidebar from "@/app/components/Navbar/AppSidebar";
-import AppMenubar from "@/app/components/Navbar/AppMenubar";
-import { SidebarTrigger } from "@/components/ui/sidebar";
+import navtabs from "@/app/lib/navtabs";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <Menubar className="items-center justify-between md:px-4 px-2 py-5 bg-gray-100 fixed top-0 w-full z-10 flex">
+    <Menubar className="items-center justify-between px-2 py-5 bg-gray-100 fixed top-0 w-screen z-50 flex">
       
       {/* Logo */}
       <Link href="/#home">
-        <img className="w-24 md:w-48" src="logo/amws-name.png" alt="AMWS" />
+        <img className="hidden w-48 sm:block" src="logo/amws-name.png" alt="AMWS" />
+        <img className="sm:hidden w-6" src="logo/amws-pic.png" alt="AMWS" />
       </Link>
 
-      {/* AppMenubar for larger devices, AppSidebar for smaller devices */}
-      <div className="flex items-center mx-auto">
-        <AppMenubar />
-        <AppSidebar/>
-        <SidebarTrigger className="block sm:hidden"/>
-      </div>
+      <div className="flex justify-evenly w-full">
+  {navtabs.map((tab) => (
+    <div key={tab.id} className="flex-1 text-center">
+      <Link
+        href={tab.link}
+        className="text-teal-700 hover:text-teal-600 transition text-[10px] sm:text-sm"
+      >
+        {tab.display}
+      </Link>
+    </div>
+  ))}
+</div>
 
       {/* Social link icons */}
-      <div className="flex items-center md:space-x-4 space-x-2">
-
+      <div className="flex items-center sm:space-x-4 space-x-1">
       <Link
           href="https://linkedin.com/in/anniemcmahon20"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-gray-400 transition"
         >
-          <FaLinkedin className="h-6 w-6" />
+          <FaLinkedin className="h-3 w-3 sm:h-6 sm:w-6" />
         </Link>
 
         <Link
@@ -39,7 +43,7 @@ export default function Navbar() {
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-gray-400 transition"
         >
-          <FaGithub className="h-6 w-6" />
+          <FaGithub className="h-3 w-3 sm:h-6 sm:w-6" />
         </Link>
 
         <Link
@@ -48,7 +52,7 @@ export default function Navbar() {
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-gray-400 transition"
         >
-          <FaSlack className="h-6 w-6" />
+          <FaSlack className="h-3 w-3 sm:h-6 sm:w-6" />
         </Link>
 
         <Link
@@ -57,7 +61,7 @@ export default function Navbar() {
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-gray-400 transition"
         >
-          <FaEnvelope className="h-6 w-6" />
+          <FaEnvelope className="h-3 w-3 sm:h-6 sm:w-6" />
         </Link>
       </div>
     </Menubar>

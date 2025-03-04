@@ -16,16 +16,11 @@ const navtabs = [
   },
   {
     id: 4, 
-    link: "/#certificates",
-    display: "Certificates"
-  },
-  {
-    id: 5, 
     link: "/#contact",
     display: "Contact"
   },
   // {
-  //   id: 6, 
+  //   id: 5, 
   //   link: "/event",
   //   display: "Event"
   // },
