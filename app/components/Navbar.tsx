@@ -1,4 +1,4 @@
-import { Menubar, MenubarMenu } from "@/components/ui/menubar";
+import { Menubar } from "@/components/ui/menubar";
 import { FaGithub, FaLinkedin, FaEnvelope, FaSlack } from "react-icons/fa";
 import navtabs from "@/app/lib/navtabs";
 import Link from "next/link";
