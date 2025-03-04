@@ -1,5 +1,5 @@
 import { Menubar } from "@/components/ui/menubar";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaSlack } from "react-icons/fa";
 import AppSidebar from "@/app/components/Navbar/AppSidebar";
 import AppMenubar from "@/app/components/Navbar/AppMenubar";
 import { SidebarTrigger } from "@/components/ui/sidebar";
@@ -23,6 +23,16 @@ export default function Navbar() {
 
       {/* Social link icons */}
       <div className="flex items-center md:space-x-4 space-x-2">
+
+      <Link
+          href="https://linkedin.com/in/anniemcmahon20"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-800 hover:text-gray-400 transition"
+        >
+          <FaLinkedin className="h-6 w-6" />
+        </Link>
+
         <Link
           href="https://github.com/anniemcmahon"
           target="_blank"
@@ -31,14 +41,16 @@ export default function Navbar() {
         >
           <FaGithub className="h-6 w-6" />
         </Link>
+
         <Link
-          href="https://linkedin.com/in/anniemcmahon20"
+          href="https://amwebstudio.slack.com"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-gray-400 transition"
         >
-          <FaLinkedin className="h-6 w-6" />
+          <FaSlack className="h-6 w-6" />
         </Link>
+
         <Link
           href="mailto:annie@amwebstudio.net"
           target="_blank"

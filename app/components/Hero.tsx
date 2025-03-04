@@ -13,23 +13,15 @@ export default function Hero() {
           <span className="font-semibold text-teal-800">
             Annie McMahon Web Studio
           </span>{" "}
-          is dedicated to crafting custom websites and web apps for small
-          businesses, nonprofits, and startups.
+          is dedicated to building custom websites, web apps, and collaborative projects that empower businesses and developers alike.
           <br />
-          <br />I specialize in building fast, responsive, and scalable digital
-          experiences that help businesses grow. Whether you need a{" "}
-          <span className="font-semibold text-teal-800">
-            high-converting landing page
-          </span>{" "}
-          or a{" "}
-          <span className="font-semibold text-teal-800">
-            fully interactive web application
-          </span>
-          , I deliver user-friendly websites and web apps tailored to your
-          needs.
+          <br />I specialize in crafting fast, responsive, and scalable landing pages and professional websites for small businesses, nonprofits, and startups.
           <br />
           <br />
-          Let me help you bring your vision to life.
+          Beyond client projects, I develop my own apps, some of which I monetize and others I offer for free. I also create collaborative web apps where new developers can gain hands-on experience by working on real-world projects.
+          <br/>
+          <br/>
+          Need a website? Want to collaborate or beta test one of my apps? Let&#39;s connect!
           <br />
           <br />
           <a href="/about" className="text-teal-800 hover:text-teal-600">About Me</a>

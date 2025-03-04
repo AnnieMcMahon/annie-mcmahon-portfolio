@@ -1,7 +1,8 @@
 export default function Footer() {
   return (
     <footer className="py-4">
-      <div className="text-center">
+      <div className="flex flex-row justify-center px-auto gap-x-4 pb-4">
+        <div>
         <p>
           LinkedIn:{" "}
           <a
@@ -22,6 +23,18 @@ export default function Footer() {
             github.com/AnnieMcMahon
           </a>
         </p>
+        </div>
+        <div>
+        <p>
+          Slack:{" "}
+          <a
+            href="https://amwebstudio.slack.com"
+            className="text-teal-800 hover:underline"
+            target="_blank"
+          >
+            amwebstudio.slack.com
+          </a>
+        </p>
         <p>E-mail: <a
             href="mailto:annie@amwebstudio.net"
             className="text-teal-800 hover:underline"
@@ -29,10 +42,11 @@ export default function Footer() {
           >
             Send me an e-mail
           </a></p>
-        <p>
+      </div>
+      </div>
+        <p className="text-center">
           &copy; {new Date().getFullYear()} Annie McMahon. All rights reserved.
         </p>
-      </div>
     </footer>
   );
 }
