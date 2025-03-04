@@ -24,11 +24,11 @@ const navtabs = [
     link: "/#contact",
     display: "Contact"
   },
-  {
-    id: 6, 
-    link: "/event",
-    display: "Event"
-  },
+  // {
+  //   id: 6, 
+  //   link: "/event",
+  //   display: "Event"
+  // },
 ]
 
 export default navtabs;
