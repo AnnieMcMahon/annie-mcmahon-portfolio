@@ -86,7 +86,7 @@ export default function EventForm() {
             name="name"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="font-bold">Your Name</FormLabel>
+                <FormLabel className="font-bold">Your name</FormLabel>
                 <FormControl>
                   <Input className="w-full" {...field} />
                 </FormControl>
@@ -100,7 +100,7 @@ export default function EventForm() {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="font-bold">Your Email</FormLabel>
+                <FormLabel className="font-bold">Your e-mail</FormLabel>
                 <FormControl>
                   <Input className="w-full" type="email" {...field} />
                 </FormControl>
@@ -114,7 +114,7 @@ export default function EventForm() {
             name="nomineeName"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="font-bold">Nominee Name</FormLabel>
+                <FormLabel className="font-bold">Nominee name</FormLabel>
                 <FormControl>
                   <Input className="w-full" {...field} />
                 </FormControl>
@@ -128,7 +128,7 @@ export default function EventForm() {
             name="nomineeEmail"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="font-bold">Nominee Email</FormLabel>
+                <FormLabel className="font-bold">Nominee e-mail</FormLabel>
                 <FormControl>
                   <Input className="w-full" type="email" {...field} />
                 </FormControl>
@@ -143,7 +143,7 @@ export default function EventForm() {
             render={({ field }) => (
               <FormItem>
                 <FormLabel className="font-bold">
-                  Why they deserve a free website
+                  Why they need a free website
                 </FormLabel>
                 <FormControl>
                   <Textarea className="h-24" {...field} />
