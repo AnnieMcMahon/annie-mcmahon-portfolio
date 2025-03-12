@@ -5,12 +5,12 @@ const projects: ProjectFormat[] = [
     id: 0,
     title: "WNC Hiking Hub",
     image: "projects/wnc-hiking-hub.png",
-    technology: "CSS, JavaScript, React, NextJS, Supabase, SQL",
+    technology: "CSS, JavaScript, React, NextJS, Tailwind, ShadCN Supabase, SQL",
     summary: "This app allows hikers to create a free account, post a hike for others to join, or join a posted hike.",
     gitHubLink: "https://github.com/AnnieMcMahon/wnc-hiking-hub-v3-db",
     gitHubTitle: "wnc-hiking-hub-v3-db",
-    webPageLink: "https://wnc-hiking-hub-v3-db.vercel.app/",
-    webPageTitle: "wnc-hiking-hub-v3-db.vercel.app"
+    webPageLink: "https://wnchikinghub.com",
+    webPageTitle: "wnchikinghub.com"
   },
   {
     id: 1,
@@ -23,8 +23,19 @@ const projects: ProjectFormat[] = [
     webPageLink: "https://mini-games-v2.vercel.app/",
     webPageTitle: "mini-games-v2.vercel.app"
    },
-  {
+   {
     id: 2,
+    title: "Classics Revisited",
+    image: "projects/classics-revisited.png",
+    technology: "CSS, TypeScript, React, Tailwind, ShadCN",
+    summary: "A website for a renovation company highlighting their services and photo gallery. Other collaborators: Mandy Hartman, Heath Babb, and Michael Chinemelu",
+    gitHubLink: "https://github.com/AnnieMcMahon/classics-revisited",
+    gitHubTitle: "classics-revisited",
+    webPageLink: "https://www.classicsavl.com/",
+    webPageTitle: "www.classicsavl.com"
+  },
+  {
+    id: 3,
     title: "Ravenous",
     image: "projects/ravenous.png",
     technology: "HTML, CSS, TypeScript, React, Yelp API",
@@ -33,17 +44,6 @@ const projects: ProjectFormat[] = [
     gitHubTitle: "ravenous",
     webPageLink: "https://ravenous-v2.vercel.app/",
     webPageTitle: "ravenous-api-annie"
-  },
-  {
-    id: 3,
-    title: "Jammming",
-    image: "projects/jammming.png",
-    technology: "HTML, CSS, JavaScript, React, Spotify API",
-    summary: "This app allows Spotify users to search for songs and add them to a new playlist, then save the playlist on their Spotify account.",
-    gitHubLink: "https://github.com/AnnieMcMahon/jammming",
-    gitHubTitle: "jammming",
-    webPageLink: "https://annie-jammming.netlify.app/",
-    webPageTitle: "annie-jammming"
   },
   {
     id: 4,
@@ -99,7 +99,19 @@ const projects: ProjectFormat[] = [
     gitHubTitle: "fifteen-js-projects",
     webPageLink: "https://anniemcmahon.github.io/fifteen-js-projects/",
     webPageTitle: "fifteen-js-projects"
-   },*/
+   },
+     {
+    id: 9,
+    title: "Jammming",
+    image: "projects/jammming.png",
+    technology: "HTML, CSS, JavaScript, React, Spotify API",
+    summary: "This app allows Spotify users to search for songs and add them to a new playlist, then save the playlist on their Spotify account.",
+    gitHubLink: "https://github.com/AnnieMcMahon/jammming",
+    gitHubTitle: "jammming",
+    webPageLink: "https://annie-jammming.netlify.app/",
+    webPageTitle: "annie-jammming"
+  },
+   */
 ];
 
 export default projects;
