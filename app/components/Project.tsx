@@ -13,11 +13,11 @@ interface ProjectProps {
 
 export default function Project({ project }: ProjectProps) {
   return (
-    <Card className="md:w-64 md:h-104 my-2">
+    <Card className="md:w-80 md:h-104 my-2">
       <CardHeader>
         <CardTitle>{project.title}</CardTitle>
       </CardHeader>
-      <div className="md:w-56 md:h-40 mb-4 overflow-hidden mx-auto">
+      <div className="md:w-72 md:h-40 mb-4 overflow-hidden mx-auto">
         <img
           src={project.image}
           alt="Project Image"

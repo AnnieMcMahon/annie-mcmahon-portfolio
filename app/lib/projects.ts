@@ -4,9 +4,9 @@ const projects: ProjectFormat[] = [
   {
     id: 0,
     title: "WNC Hiking Hub",
-    image: "projects/wnc-hiking-hub.png",
+    image: "projects/wnc-hiking-hub-new.png",
     technology: "CSS, JavaScript, React, NextJS, Tailwind, ShadCN Supabase, SQL",
-    summary: "This app allows hikers to create a free account, post a hike for others to join, or join a posted hike.",
+    summary: "This app allows hikers to create a free account, post a hike for others to join, or join a posted hike. Other collaborators: Tim Means, Eduardo Vazquez, Ketan Sahu ",
     gitHubLink: "https://github.com/AnnieMcMahon/wnc-hiking-hub-v3-db",
     gitHubTitle: "wnc-hiking-hub-v3-db",
     webPageLink: "https://wnchikinghub.com",
