@@ -19,11 +19,11 @@ const navtabs = [
     link: "/#contact",
     display: "Contact"
   },
-  {
-    id: 5, 
-    link: "/event",
-    display: "Event"
-  },
+  // {
+  //   id: 5, 
+  //   link: "/event",
+  //   display: "Event"
+  // },
 ]
 
 export default navtabs;
